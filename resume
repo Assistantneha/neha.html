@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+ <style>
+    body
+    {
+        font-family:
+    }
+
+ </style>
+ <body>
+    <h1>Neha vishwakarma</h1>
+    <img src=c:\Users\YOGESH\Pictures\neha.jpg  alt="profile image"  width = "300" height = "500" style="border:8px solid black;"/>
+ <div class="section">
+    <h2>objective</h2>
+      <p>to secure a challenging position in a reputable organization to expend my learnings, knowledg and skills.</p> 
+</div>
+<div class="section">
+
+    <h2>Education</h2>
+    <table border="1">
+        <tr>
+            <th>Degree</th>
+            <th>Institution</th>
+            <th>Year</th>
+            <th>P9ercentage</th>
+        </tr>
+        <tr>
+            <td>12th(Science)</td>
+            <td>excellence school</td>
+            <td>2023</td>
+            <td>76%</td>
+        </tr>
+        <tr>
+            <td>10th</td>
+             <td>excellence school</td>
+              <td>2021</td>
+               <td>79%</td>
+        </tr>
+    </table>
+</div>
+<div class ="section">
+<h2>Skills</h2>
+<ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+    <li>C</li>
+    <li>C++</li>
+</ol>
+</div>
+<div class = "section">
+    <h2>Personal Details</h2>
+    <p>date of birth:15th august 2005</p>
+    <p>Addrass:manorama colony sagar</p>
+    <p>Email:nehavish654@gmail.com</p>
+    <p>phone:6262590659</p>
+</div>
+ </body>
+</html>
