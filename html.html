@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>My Shop</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<header>
+<h1>🛒 My E‑Commerce Store</h1>
+<div class="cart">Cart: <span id="cart-count">0</span></div>
+</header>
+<input type="text" id="search" placeholder="Search product..." />
+
+<div id="product-list"></div>
+
+
+<section class="cart-section">
+    <!-- BUY NOW DETAILS MODAL -->
+<div id="product-modal" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal()">×</span>
+
+    <img id="m-img" width="180">
+    <h2 id="m-title"></h2>
+    <p id="m-desc"></p>
+
+    <p><b>Brand:</b> <span id="m-brand"></span></p>
+    <p><b>Category:</b> <span id="m-category"></span></p>
+    <p><b>Rating:</b> ⭐ <span id="m-rating"></span></p>
+    <p><b>Stock:</b> <span id="m-stock"></span></p>
+
+    <h3>Price: ₹<span id="m-price"></span></h3>
+    <button class="add" onclick="addFromModal()">Add to Cart</button>
+  </div>
+</div>
+
+<h2>Cart Items</h2>
+<ul id="cart-items"></ul>
+<h3>Total: ₹<span id="total">0</span></h3>
+</section>
+
+
+<script src="script.js"></script>
+</body>
+</html>
